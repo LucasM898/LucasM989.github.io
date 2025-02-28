@@ -33,3 +33,16 @@ body {
     text-align: center;
 
 }
+@media (max-width: 768px) {
+    #Title {
+        font-size: 10vw; 
+    }
+
+    #Transition {
+        height: 10vh; 
+    }
+
+    #title {
+        margin-top: -2vh;
+    }
+}

@@ -21,16 +21,18 @@ body {
     margin: 0;
     background-color: black;
     color:white;
+    height: 100vh;
 }
 #scroll {
     height: 20000vh;
 }
-#title {
+#content-title {
     font-size: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 'zen dots', sans-serif;
 
 }
 @media (max-width: 1300px) {
@@ -45,4 +47,17 @@ body {
     #title {
         height: 10vh;
     }
+}
+#content-box {
+    width: 75vw;
+    border: 3px solid white;
+    border-image: linear-gradient(to bottom right, #8B0000, #1e52bb) 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 1px 23px;
+    margin: 20px auto;
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
 }

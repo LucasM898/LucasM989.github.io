@@ -26,16 +26,16 @@ body {
     height: 20000vh;
 }
 #title {
-    font-size: 3.5vw;
+    font-size: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 
 }
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     #Title {
-        font-size: 10vw; 
+        height: 10vh; 
     }
 
     #Transition {
@@ -43,6 +43,6 @@ body {
     }
 
     #title {
-        margin-top: -2vh;
+        height: 10vh;
     }
 }

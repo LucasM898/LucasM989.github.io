@@ -1,1 +1,35 @@
+#Title {
+    font-size: 10vw;
+    background-color: #295cc2;
+    color: black;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Black Ops One', sans-serif;
+}
+#Transition {
+    height: 25vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #295cc2, #000);
+}
+body {
+    margin: 0;
+    background-color: black;
+    color:white;
+}
+#scroll {
+    height: 20000vh;
+}
+#title {
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+}

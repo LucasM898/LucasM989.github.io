@@ -13,6 +13,9 @@
     font-family: 'Black Ops One', sans-serif;
     flex-direction: column;
 }
+.cert-image{
+    width: 25vw;
+}
 #Transition {
     height: 25vh;
     width: 100%;
@@ -36,16 +39,19 @@ body {
     font-family: 'zen dots', sans-serif;   
 }
 @media (max-width: 1300px) {
-    #Title {
-        height: 10vh; 
+    #Title, #Transition, .content-title {
+        height: 17.5vh;
     }
-
-    #Transition {
-        height: 10vh; 
+    .cert-image{
+        width:66vw;
     }
-
-    #title {
-        height: 10vh;
+    .cert-container{
+        flex-direction: column;
+    }
+}
+@media (max-width: 700px) {
+    #Title, #Transition, .content-title {
+        height: 10vh; 
     }
 }
 #content-box {
@@ -72,20 +78,27 @@ body {
     background-color: #295cc2;
     margin: 0;
     color:white;
+    display: flex;
+    gap: 5vw;
 
 }
 html {
     scroll-behavior: smooth;
 }
-#clear-link-format a,
-#clear-link-format a:visited,
-#clear-link-format a:hover,
-#clear-link-format a:active {
-    all: unset; /* Resets all styles */
-    color: yellow !important; /* Forces yellow color */
-    cursor: pointer; /* Ensures it still acts as a clickable item */
-    display: inline-block; /* Helps with styling consistency */
+#clear-link-format a {
+    text-decoration: none; /* Removes underline */
+    color: yellow;
+    cursor: pointer;
+    display: inline-block;
 }
-.cert-image{
-    width: 25vw;
+
+#clear-link-format a:hover {
+    color: orange; /* Optional hover effect */
+}
+.cert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px; 
+    flex-wrap: wrap;
 }

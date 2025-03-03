@@ -1,7 +1,7 @@
 #Title {
     font-size: 10vw;
     background-color: #295cc2;
-    color: black;
+    color: #FFA500;
     height: 25vh;
     width: 100%;
     display: flex;
@@ -15,6 +15,9 @@
 }
 .cert-image{
     width: 25vw;
+    border: 5px solid black;
+    box-shadow: 
+    0 0 20px 15px rgb(0, 0, 136);
 }
 #Transition {
     height: 25vh;
@@ -26,6 +29,7 @@ body {
     background-color: black;
     color:white;
     height: 100vh;
+    user-select: none;
 }
 #scroll {
     height: 20000vh;
@@ -67,9 +71,6 @@ body {
     font-family: Verdana, sans-serif;
     line-height: 1.5;
 }
-#temp {
-    color:yellow;
-}
 #menu-selectors {
     justify-content: center;
     align-items: center;
@@ -99,6 +100,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:20px; 
+    gap:5vw; 
     flex-wrap: wrap;
 }

@@ -18,6 +18,12 @@
     border: 5px solid black;
     box-shadow: 
     0 0 20px 15px rgb(0, 0, 136);
+    -webkit-user-drag: none; /* For Safari/Chrome */
+    user-drag: none; /* Standard */
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Safari/Chrome */
+    user-select: none; /* Standard */
+}
 }
 #Transition {
     height: 25vh;

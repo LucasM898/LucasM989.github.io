@@ -116,10 +116,6 @@ html {
     gap:5vw; 
     flex-wrap: wrap;
 }
-#back-to-top-icon {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
 #placeholder {
     height: 50vh;
     width: 50vh;

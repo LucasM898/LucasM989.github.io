@@ -94,6 +94,7 @@ body {
     transform: translateX(-50%);
     margin-top: 2.5vh;
     padding: .33em 1em;
+    font-size: 1.75vh;
 }
 html {
     scroll-behavior: smooth;
@@ -114,4 +115,8 @@ html {
     align-items: center;
     gap:5vw; 
     flex-wrap: wrap;
+}
+#back-to-top-icon {
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }

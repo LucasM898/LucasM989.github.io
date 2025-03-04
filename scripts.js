@@ -12,3 +12,14 @@ document.addEventListener("scroll", function () {
         menu.style.top = topValue;
     }
 });
+document.addEventListener('scroll', function () {
+    let backToTopIcon = document.getElementById('back-to-top-icon');
+    let scrollPosition = window.scrollY;
+
+    if (scrollPosition > 0) {
+        backToTopIcon.style.opacity = '1'; /* Visible when scrolled */
+    } else {
+        backToTopIcon.style.opacity = '0'; /* Hidden at top */
+    }
+});
+//dfdasfasdf

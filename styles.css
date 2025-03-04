@@ -18,11 +18,11 @@
     border: 5px solid black;
     box-shadow: 
     0 0 20px 15px rgb(0, 0, 136);
-    -webkit-user-drag: none; /* For Safari/Chrome */
-    user-drag: none; /* Standard */
-    -moz-user-select: none; /* Firefox */
-    -webkit-user-select: none; /* Safari/Chrome */
-    user-select: none; /* Standard */
+    -webkit-user-drag: none; 
+    user-drag: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 #Transition {
     height: 25vh;
@@ -119,4 +119,32 @@ html {
 #back-to-top-icon {
     opacity: 0;
     transition: opacity 0.3s ease;
+}
+#placeholder {
+    height: 50vh;
+    width: 50vh;
+    background-color: #beefee;
+    justify-content: center;
+    margin: auto;
+}
+.solid-white-line {
+    height: 3vh;
+    width: 99vw;
+    background: linear-gradient(to bottom, 
+        rgb(0, 0, 50), 
+        rgb(0, 0, 150), 
+        rgb(0, 0, 50)
+    );
+    margin-top: 10vh;
+}
+#icons {
+    height: 4.3vh;
+    width: auto;
+
+}
+#links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
 }

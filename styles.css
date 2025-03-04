@@ -62,7 +62,7 @@ body {
     #Title, #Transition, .content-title {
         height: 10vh; 
     }
-    #menu-selectors {
+    #navbar {
         margin-top: 0;
     }
 }
@@ -79,7 +79,7 @@ body {
     font-family: Verdana, sans-serif;
     line-height: 1.5;
 }
-#menu-selectors {
+#navbar {
     justify-content: center;
     align-items: center;
     text-align: center;

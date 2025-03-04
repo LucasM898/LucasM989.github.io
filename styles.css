@@ -81,11 +81,14 @@ body {
     align-items: center;
     text-align: center;
     font-family: 'zen dots', sans-serif;
-    background-color: #295cc2;
-    margin: 0;
+    background-color: #none;
     color:white;
     display: flex;
     gap: 5vw;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 2.5vh;
 
 }
 html {

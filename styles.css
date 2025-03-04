@@ -137,7 +137,7 @@ html {
     );
     margin-top: 10vh;
 }
-#icons {
+.icons {
     height: 4.3vh;
     width: auto;
 
@@ -147,4 +147,5 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 2vh;
+    gap: 5vw;
 }

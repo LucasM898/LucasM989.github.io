@@ -145,3 +145,20 @@ html {
     margin-top: 2vh;
     gap: 5vw;
 }
+.back-to-top-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.back-to-top-icon {
+    display: block;
+    width: 2.25em;
+    height: 2.25em;
+    background-image: url('https://github.com/LucasM898/LucasM989.github.io/blob/main/back-to-top.png?raw=true'); /* Original image */
+    background-size: cover;
+    background-position: center;
+}
+
+.back-to-top-link:hover .back-to-top-icon {
+    background-image: url('https://github.com/LucasM898/LucasM989.github.io/blob/main/back-to-top-orange.png?raw=true'); /* Hover image */
+}

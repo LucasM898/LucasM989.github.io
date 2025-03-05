@@ -116,13 +116,6 @@ html {
     gap:5vw; 
     flex-wrap: wrap;
 }
-#placeholder {
-    height: 50vh;
-    width: 50vh;
-    background-color: #beefee;
-    justify-content: center;
-    margin: auto;
-}
 .solid-white-line {
     height: 3vh;
     width: 99vw;
@@ -161,4 +154,14 @@ html {
 
 .back-to-top-link:hover .back-to-top-icon {
     background-image: url('https://github.com/LucasM898/LucasM989.github.io/blob/main/back-to-top-orange.png?raw=true'); /* Hover image */
+}
+#codewars-icon {
+    filter: invert(100%);
+    height: 5.7vh;
+}
+#placeholder {
+    height: 50vw;
+    width: 50vw;
+    background-color: #beefee;
+    margin: auto;
 }

@@ -175,7 +175,10 @@ html {
     height: 100vh !important;
     width: auto;
     transform: translate(-50%, -50%);
-    opacity: 0; /* Start faded */
+    opacity: 0;
+    -webkit-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
 }
 #squidward[style*="display: block"] {
     animation: fadeInOut 5s ease forwards; /* Matches your 5s JS timing */

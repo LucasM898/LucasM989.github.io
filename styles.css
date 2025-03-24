@@ -24,6 +24,15 @@
     -webkit-user-select: none;
     user-select: none;
 }
+.cert-image:hover{
+    box-shadow: 
+    0 0 10px 15px rgb(0, 140, 255);
+    -webkit-user-drag: none; 
+    user-drag: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
 #Transition {
     height: 25vh;
     width: 100%;
@@ -105,6 +114,7 @@ html {
     cursor: pointer;
     display: inline-block;
 }
+
 
 #clear-link-format a:hover {
     color: orange; /* Optional hover effect */

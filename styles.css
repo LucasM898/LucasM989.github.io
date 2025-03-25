@@ -157,7 +157,7 @@ html {
     display: block;
     width: 2.25em;
     height: 2.25em;
-    background-image: url('https://github.com/LucasM898/LucasM989.github.io/blob/main/back-to-top.png?raw=true'); /* Original image */
+    background-image: url('https://raw.githubusercontent.com/LucasM898/LucasM989.github.io/refs/heads/main/back-to-top-orange.webp'); /* Original image */
     background-size: cover;
     background-position: center;
 }

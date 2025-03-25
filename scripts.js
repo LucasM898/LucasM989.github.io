@@ -26,15 +26,3 @@ easterEggIcon.addEventListener('click', function (e) {
     }
     // If scrollY > 0, do nothing extra—let the <a href="#back-to-top"> work naturally
 });
-document.addEventListener("DOMContentLoaded", () => {
-    const visitorBox = document.getElementById('returning-visitor-box');
-    const visitedBefore = document.cookie.includes("visited=true");
-
-    if (visitedBefore) {
-        visitorBox.style.display = 'block';
-    }
-
-    window.addEventListener('beforeunload', () => {
-        document.cookie = "visited=true; path=/; max-age=" + (60 * 60 * 24 * 30); // expires in 30 days
-    });
-});

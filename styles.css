@@ -208,3 +208,19 @@ html {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+@media (max-width: 700px) {
+    #navbar {
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        gap: 2vw; /* Smaller gap */
+        font-size: 1.5vh; /* Smaller font */
+        padding: 0.5em;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #navbar a {
+        flex: 1 0 auto; /* Allow links to take available space */
+        text-align: center;
+    }
+}

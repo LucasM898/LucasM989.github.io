@@ -13,16 +13,14 @@ document.addEventListener("scroll", function () {
         menu.style.top = topValue;
     }
 });
-// Easter Egg logic
 const easterEggIcon = document.getElementById('EasterEgg');
 easterEggIcon.addEventListener('click', function (e) {
     if (window.scrollY === 0) {
-        e.preventDefault(); // Stop anchor jump only when at top
+        e.preventDefault();
         const squidward = document.getElementById('squidward');
         squidward.style.display = 'block';
         setTimeout(() => {
             squidward.style.display = 'none';
-        }, 5000); // Hide after 5 seconds
+        }, 5000);
     }
-    // If scrollY > 0, do nothing extra—let the <a href="#back-to-top"> work naturally
 });

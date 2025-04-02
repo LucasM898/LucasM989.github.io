@@ -19,7 +19,6 @@
     box-shadow: 
     0 0 20px 15px rgb(0, 0, 136);
     -webkit-user-drag: none; 
-    user-drag: none; 
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
@@ -28,7 +27,6 @@
     box-shadow: 
     0 0 10px 15px rgb(0, 140, 255);
     -webkit-user-drag: none; 
-    user-drag: none; 
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
@@ -188,7 +186,6 @@ html {
     transform: translate(-50%, -50%);
     opacity: 0;
     -webkit-user-drag: none;
-    user-drag: none;
     pointer-events: none;
 }
 #squidward[style*="display: block"] {

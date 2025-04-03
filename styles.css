@@ -42,6 +42,7 @@ body {
     color:white;
     height: 100vh;
     user-select: none;
+    cursor: default !important;
 }
 #scroll {
     height: 20000vh;
